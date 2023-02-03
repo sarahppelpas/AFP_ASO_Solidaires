@@ -20,9 +20,10 @@ struct EcranOffres: View {
         ZStack {
             Color("ColorVertFond")
             VStack {
-                HStack {
-                    
-                }
+             
+                    header()
+                    .padding()
+                
                 .padding()
                 ZStack {
                     HStack{
