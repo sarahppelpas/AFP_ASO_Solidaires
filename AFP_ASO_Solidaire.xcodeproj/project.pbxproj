@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B52FBFE298D478F006F4A18 /* DropDownMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBF9298D478F006F4A18 /* DropDownMenuOption.swift */; };
+		7B52FC00298D478F006F4A18 /* EcranDon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBFC298D478F006F4A18 /* EcranDon.swift */; };
+		7B52FC01298D478F006F4A18 /* EcranModificationProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBFD298D478F006F4A18 /* EcranModificationProfil.swift */; };
+		7B52FC03298D478F006F4A18 /* FourTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBF5298D478F006F4A18 /* FourTextField.swift */; };
+		7B52FC04298D478F006F4A18 /* EcranProfilUtilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBF4298D478E006F4A18 /* EcranProfilUtilisateur.swift */; };
+		7B52FC05298D478F006F4A18 /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBFA298D478F006F4A18 /* DropDownMenu.swift */; };
+		7B52FC06298D478F006F4A18 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBFB298D478F006F4A18 /* CounterView.swift */; };
+		7B52FC07298D478F006F4A18 /* EcranDetailProfilElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBF8298D478F006F4A18 /* EcranDetailProfilElement.swift */; };
+		7B52FC08298D478F006F4A18 /* DropDownMenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FBF7298D478F006F4A18 /* DropDownMenuListRow.swift */; };
+		7B52FC10298D47A7006F4A18 /* EcranProfilAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FC0F298D47A7006F4A18 /* EcranProfilAssociation.swift */; };
+		7B52FC16298D4862006F4A18 /* BoutonJeDeviensBenevole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FC13298D4862006F4A18 /* BoutonJeDeviensBenevole.swift */; };
+		7B52FC17298D4862006F4A18 /* EcranDetailPostuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FC14298D4862006F4A18 /* EcranDetailPostuler.swift */; };
+		7B52FC18298D4862006F4A18 /* BoutonVoirAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FC15298D4862006F4A18 /* BoutonVoirAssociation.swift */; };
+		7B52FC1A298D48B4006F4A18 /* DropDownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B52FC19298D48B4006F4A18 /* DropDownMenuList.swift */; };
 		7BEFAD6B298D441C006A38D5 /* AFP_ASO_SolidaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFAD6A298D441C006A38D5 /* AFP_ASO_SolidaireApp.swift */; };
-		7BEFAD6D298D441C006A38D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFAD6C298D441C006A38D5 /* ContentView.swift */; };
+		7BEFAD6D298D441C006A38D5 /* EcranOffres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFAD6C298D441C006A38D5 /* EcranOffres.swift */; };
 		7BEFAD6F298D441D006A38D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFAD6E298D441D006A38D5 /* Assets.xcassets */; };
 		7BEFAD72298D441D006A38D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFAD71298D441D006A38D5 /* Preview Assets.xcassets */; };
+		7BEFAD7D298D44E5006A38D5 /* CodeMarine in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFAD7C298D44E5006A38D5 /* CodeMarine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B52FBF4298D478E006F4A18 /* EcranProfilUtilisateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranProfilUtilisateur.swift; sourceTree = "<group>"; };
+		7B52FBF5298D478F006F4A18 /* FourTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourTextField.swift; sourceTree = "<group>"; };
+		7B52FBF7298D478F006F4A18 /* DropDownMenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuListRow.swift; sourceTree = "<group>"; };
+		7B52FBF8298D478F006F4A18 /* EcranDetailProfilElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranDetailProfilElement.swift; sourceTree = "<group>"; };
+		7B52FBF9298D478F006F4A18 /* DropDownMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuOption.swift; sourceTree = "<group>"; };
+		7B52FBFA298D478F006F4A18 /* DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		7B52FBFB298D478F006F4A18 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		7B52FBFC298D478F006F4A18 /* EcranDon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranDon.swift; sourceTree = "<group>"; };
+		7B52FBFD298D478F006F4A18 /* EcranModificationProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranModificationProfil.swift; sourceTree = "<group>"; };
+		7B52FC0F298D47A7006F4A18 /* EcranProfilAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranProfilAssociation.swift; sourceTree = "<group>"; };
+		7B52FC13298D4862006F4A18 /* BoutonJeDeviensBenevole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoutonJeDeviensBenevole.swift; sourceTree = "<group>"; };
+		7B52FC14298D4862006F4A18 /* EcranDetailPostuler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranDetailPostuler.swift; sourceTree = "<group>"; };
+		7B52FC15298D4862006F4A18 /* BoutonVoirAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoutonVoirAssociation.swift; sourceTree = "<group>"; };
+		7B52FC19298D48B4006F4A18 /* DropDownMenuList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownMenuList.swift; path = ../../../Aso.Afp/Aso.Afp/CodeKevin/DropDownMenuList.swift; sourceTree = "<group>"; };
 		7BEFAD67298D441C006A38D5 /* AFP_ASO_Solidaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFP_ASO_Solidaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEFAD6A298D441C006A38D5 /* AFP_ASO_SolidaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFP_ASO_SolidaireApp.swift; sourceTree = "<group>"; };
-		7BEFAD6C298D441C006A38D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BEFAD6C298D441C006A38D5 /* EcranOffres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranOffres.swift; sourceTree = "<group>"; };
 		7BEFAD6E298D441D006A38D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BEFAD71298D441D006A38D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BEFAD7C298D44E5006A38D5 /* CodeMarine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeMarine; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +65,7 @@
 		7BEFAD5E298D441C006A38D5 = {
 			isa = PBXGroup;
 			children = (
+				7BEFAD7C298D44E5006A38D5 /* CodeMarine */,
 				7BEFAD69298D441C006A38D5 /* AFP_ASO_Solidaire */,
 				7BEFAD68298D441C006A38D5 /* Products */,
 			);
@@ -52,7 +83,21 @@
 			isa = PBXGroup;
 			children = (
 				7BEFAD6A298D441C006A38D5 /* AFP_ASO_SolidaireApp.swift */,
-				7BEFAD6C298D441C006A38D5 /* ContentView.swift */,
+				7B52FBFB298D478F006F4A18 /* CounterView.swift */,
+				7B52FC19298D48B4006F4A18 /* DropDownMenuList.swift */,
+				7B52FBFA298D478F006F4A18 /* DropDownMenu.swift */,
+				7B52FBF7298D478F006F4A18 /* DropDownMenuListRow.swift */,
+				7B52FBF9298D478F006F4A18 /* DropDownMenuOption.swift */,
+				7B52FBF8298D478F006F4A18 /* EcranDetailProfilElement.swift */,
+				7B52FBFC298D478F006F4A18 /* EcranDon.swift */,
+				7B52FBFD298D478F006F4A18 /* EcranModificationProfil.swift */,
+				7BEFAD6C298D441C006A38D5 /* EcranOffres.swift */,
+				7B52FBF4298D478E006F4A18 /* EcranProfilUtilisateur.swift */,
+				7B52FBF5298D478F006F4A18 /* FourTextField.swift */,
+				7B52FC0F298D47A7006F4A18 /* EcranProfilAssociation.swift */,
+				7B52FC13298D4862006F4A18 /* BoutonJeDeviensBenevole.swift */,
+				7B52FC15298D4862006F4A18 /* BoutonVoirAssociation.swift */,
+				7B52FC14298D4862006F4A18 /* EcranDetailPostuler.swift */,
 				7BEFAD6E298D441D006A38D5 /* Assets.xcassets */,
 				7BEFAD70298D441D006A38D5 /* Preview Content */,
 			);
@@ -126,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BEFAD72298D441D006A38D5 /* Preview Assets.xcassets in Resources */,
+				7BEFAD7D298D44E5006A38D5 /* CodeMarine in Resources */,
 				7BEFAD6F298D441D006A38D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +183,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEFAD6D298D441C006A38D5 /* ContentView.swift in Sources */,
+				7B52FC10298D47A7006F4A18 /* EcranProfilAssociation.swift in Sources */,
+				7BEFAD6D298D441C006A38D5 /* EcranOffres.swift in Sources */,
+				7B52FC16298D4862006F4A18 /* BoutonJeDeviensBenevole.swift in Sources */,
+				7B52FC00298D478F006F4A18 /* EcranDon.swift in Sources */,
+				7B52FC17298D4862006F4A18 /* EcranDetailPostuler.swift in Sources */,
+				7B52FC03298D478F006F4A18 /* FourTextField.swift in Sources */,
+				7B52FC08298D478F006F4A18 /* DropDownMenuListRow.swift in Sources */,
+				7B52FC04298D478F006F4A18 /* EcranProfilUtilisateur.swift in Sources */,
 				7BEFAD6B298D441C006A38D5 /* AFP_ASO_SolidaireApp.swift in Sources */,
+				7B52FC06298D478F006F4A18 /* CounterView.swift in Sources */,
+				7B52FC18298D4862006F4A18 /* BoutonVoirAssociation.swift in Sources */,
+				7B52FC05298D478F006F4A18 /* DropDownMenu.swift in Sources */,
+				7B52FBFE298D478F006F4A18 /* DropDownMenuOption.swift in Sources */,
+				7B52FC1A298D48B4006F4A18 /* DropDownMenuList.swift in Sources */,
+				7B52FC01298D478F006F4A18 /* EcranModificationProfil.swift in Sources */,
+				7B52FC07298D478F006F4A18 /* EcranDetailProfilElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
