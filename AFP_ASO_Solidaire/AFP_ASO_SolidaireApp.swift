@@ -11,7 +11,7 @@ import SwiftUI
 struct AFP_ASO_SolidaireApp: App {
     var body: some Scene {
         WindowGroup {
-           EcranOffres()
+            ChargementPage()
         }
     }
 }

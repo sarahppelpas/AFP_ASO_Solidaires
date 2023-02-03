@@ -9,13 +9,13 @@ import Foundation
 
 // We are going to use this type with ForEach, so we need to conform it to
 // Hashable protocol.
-struct DropdownMenuOption: Identifiable, Hashable {
+struct DropdownMenuOption: Identifiable {
     let id = UUID().uuidString
     let option: String
 }
 
 
-struct Association: Identifiable, Hashable {
+struct Association: Identifiable{
 
 let id = UUID()
 
