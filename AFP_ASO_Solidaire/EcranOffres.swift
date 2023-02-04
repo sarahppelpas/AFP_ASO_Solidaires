@@ -20,29 +20,20 @@ struct EcranOffres: View {
             Color("ColorVertFond")
                 .ignoresSafeArea()
             
+         
             VStack{
-                header()
-                    .padding()
-                
-                RechercheBar()
-                
-                
-                HStack{
-                    EcranOffresButton()
-                    
-                    
-                    ButtonDon()
-  
-                }
 
                 EcranListAssociationOffres()
                     
             }
             
+            
         }
     }
     
 }
+
+
 
 struct EcranOffres_Previews: PreviewProvider {
     static var previews: some View {

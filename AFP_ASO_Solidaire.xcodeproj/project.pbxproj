@@ -74,18 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7B52FC35298F1272006F4A18 /* EcranOffres */ = {
-			isa = PBXGroup;
-			children = (
-				7BEFAD6C298D441C006A38D5 /* EcranOffres.swift */,
-				7B52FC33298EC85A006F4A18 /* EcranListAssociationOffres.swift */,
-				7B52FC25298D8D36006F4A18 /* EcranOffresButton.swift */,
-				7B52FC2B298DB52C006F4A18 /* ButtonDon.swift */,
-				7B52FC29298DAFB3006F4A18 /* RechercheBar.swift */,
-			);
-			path = EcranOffres;
-			sourceTree = "<group>";
-		};
 		7BEFAD5E298D441C006A38D5 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +105,11 @@
 				7B52FBF8298D478F006F4A18 /* EcranDetailProfilElement.swift */,
 				7B52FBFC298D478F006F4A18 /* EcranDon.swift */,
 				7B52FBFD298D478F006F4A18 /* EcranModificationProfil.swift */,
-				7B52FC35298F1272006F4A18 /* EcranOffres */,
+				7BEFAD6C298D441C006A38D5 /* EcranOffres.swift */,
+				7B52FC33298EC85A006F4A18 /* EcranListAssociationOffres.swift */,
+				7B52FC25298D8D36006F4A18 /* EcranOffresButton.swift */,
+				7B52FC2B298DB52C006F4A18 /* ButtonDon.swift */,
+				7B52FC29298DAFB3006F4A18 /* RechercheBar.swift */,
 				7B52FBF4298D478E006F4A18 /* EcranProfilUtilisateur.swift */,
 				7B52FBF5298D478F006F4A18 /* FourTextField.swift */,
 				7B52FC0F298D47A7006F4A18 /* EcranProfilAssociation.swift */,
