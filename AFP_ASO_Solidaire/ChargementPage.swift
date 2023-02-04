@@ -9,8 +9,8 @@ struct ChargementPage: View {
     @State private var offset1: CGSize = .zero
     @State private var offset2: CGSize = .zero
     @State private var offset3: CGSize = .zero
-    @State private var isActive = false
     @State private var showNextScreen = false
+ 
         
         var body: some View {
             ZStack {
@@ -64,13 +64,16 @@ struct ChargementPage: View {
                             }
                     }
                 }
-                if showNextScreen {
-                    EcranOffres()
+                if showNextScreen  {
+                    TabViewAso()
                 }
+                
+               
             }
             .onAppear() {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                     self.showNextScreen = true
+                   
                 }
             }
         }
