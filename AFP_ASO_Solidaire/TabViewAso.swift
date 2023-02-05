@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TabViewAso: View {
+ 
     
     init() {
     UITabBar.appearance().backgroundColor = UIColor.white
@@ -19,34 +20,20 @@ struct TabViewAso: View {
             
             Color("ColorVertFond")
             .ignoresSafeArea()
-            VStack{
-                
-                
-                header()
-                    .padding()
-                
-                RechercheBar()
-                
-                HStack{
-                    
-                    
-                    EcranOffresButton()
-                    
-                    
-                    ButtonDon()
-                    
-                }
+    
                 TabView {
                     
                     
                     
-                    
-                    
                     EcranOffres()
+                    
+                        
                         .tabItem {
+                            
                             Image(systemName: "book.fill")
                             Text("Offres")
                                 .font(.title3)
+                            
                             
                             
                         }
@@ -72,7 +59,7 @@ struct TabViewAso: View {
         }
             
     }
-}
+
 
 struct TabViewAso_Previews: PreviewProvider {
     static var previews: some View {
