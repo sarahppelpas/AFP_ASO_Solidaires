@@ -37,12 +37,16 @@ struct TabViewAso: View {
                             
                             
                         }
+                    
                     //            EcranGeolocalisation()
                     //                .tabItem {
                     //                    Image(systemName: "map.fill")
                     //                    Text("Carte")
                     //                        .font(.title3)
                     //                }
+                    
+                    
+                    
                     EcranProfilUtilisateur()
                         .tabItem {
                             Image(systemName: "person.fill")

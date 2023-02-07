@@ -16,6 +16,8 @@ struct EcranOffres: View {
     
     var body: some View {
         
+        
+        
         ZStack {
             Color("ColorVertFond")
                 .ignoresSafeArea()
@@ -29,19 +31,30 @@ struct EcranOffres: View {
                 RechercheBar()
                     .padding()
                 
+                
+                
+                
                 VStack{
-                   
+                    
                     
                     EcranOffresButton()
                     
                     
-                  
+                    
                     
                 }
-                VStack{
+                
+                ScrollView {
                     
-                    EcranListAssociationOffres()
                     
+                    VStack{
+                        
+                        EcranListAssociationOffres()
+                            .padding()
+                        
+                        
+                    }
+                    .frame(height: 550)
                 }
                 
                 

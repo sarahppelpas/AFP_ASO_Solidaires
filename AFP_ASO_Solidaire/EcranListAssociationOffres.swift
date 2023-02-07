@@ -15,10 +15,12 @@ struct EcranListAssociationOffres: View {
     @State var OffreButton = "+ Voir l'offre"
     
     let associations = [
-        ListOffreAssociation(titreOffreAssociation: "Secours Populaire", mission: "bénévolat-Distribution de repas", imageAssociation: "SecourPopulaire"),
-        ListOffreAssociation(titreOffreAssociation: "Restaurants du Coeur", mission: "Distribution de repas", imageAssociation: "RestaurantsduCoeur"),
-        ListOffreAssociation(titreOffreAssociation: "Handicap International", mission: "Aide aux personnes handicapées", imageAssociation: "HandicapInternational")
+        ListOffreAssociation(titreOffreAssociation: "Secours Populaire", mission: "bénévolat-Distribution de repas", imageAssociation: "SecourPopulaire", dateOffres: 10),
+        ListOffreAssociation(titreOffreAssociation: "Restaurants du Coeur", mission: "Distribution de repas", imageAssociation: "RestaurantsduCoeur", dateOffres: 12),
+        ListOffreAssociation(titreOffreAssociation: "Handicap International", mission: "Aide aux personnes handicapées", imageAssociation: "HandicapInternational", dateOffres: 14)
     ]
+    
+    
     
     var body: some View {
         VStack {
@@ -36,11 +38,20 @@ struct EcranListAssociationOffres: View {
                     
                     HStack{
                         
-                        
+                        VStack{
+                            
                         Text(association.titreOffreAssociation)
                             .foregroundColor(Color.black)
                             .font(.headline)
                             .padding()
+                        
+                        
+                        
+                        Text("\(association.dateOffres) février 2023")
+                    }
+                          
+                        
+                        
                             
                         Spacer()
                       
@@ -75,6 +86,8 @@ struct ListOffreAssociation: Identifiable {
     var titreOffreAssociation: String
     var mission: String
     var imageAssociation: String
+    var dateOffres: Int
+  
 }
 
 
